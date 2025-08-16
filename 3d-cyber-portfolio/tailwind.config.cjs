@@ -4,4 +4,4 @@
     extend: {},
   },
   plugins: [],
-}
+};
