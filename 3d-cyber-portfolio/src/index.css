@@ -1,0 +1,54 @@
+﻿@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.digital-rain-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  pointer-events: none;
+  background: transparent;
+}
+
+.canvas-wrap {
+  height: 100vh;
+  width: 100vw;
+}
+
+.panel {
+  backdrop-filter: blur(6px);
+  background: rgba(10, 10, 15, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+
+  /* CPU Chip UI Custom Styles */
+  .cpu-chip-ui {
+    box-shadow: 0 0 32px 4px #06b6d4cc, 0 0 0 2px #0ff3, 0 2px 16px 0 #000a;
+    position: relative;
+    min-width: 220px;
+    min-height: 120px;
+    transition: box-shadow 0.2s;
+  }
+  .cpu-chip-ui:hover {
+    box-shadow: 0 0 48px 8px #22d3eecc, 0 0 0 4px #0ff6, 0 4px 32px 0 #000a;
+  }
+  .animate-glow {
+    animation: cpu-glow 2.2s infinite alternate;
+  }
+  @keyframes cpu-glow {
+    0% {
+      box-shadow: 0 0 32px 4px #06b6d4cc, 0 0 0 2px #0ff3, 0 2px 16px 0 #000a;
+    }
+    100% {
+      box-shadow: 0 0 48px 8px #22d3eecc, 0 0 0 4px #0ff6, 0 4px 32px 0 #000a;
+    }
+  }
+}
