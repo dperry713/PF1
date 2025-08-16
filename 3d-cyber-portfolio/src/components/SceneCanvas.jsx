@@ -177,22 +177,22 @@ function FloatingIcons() {
 
 // List of icon image files in assets/icons (add more as needed)
 const iconImages = [
-  { name: "React", src: "/src/assets/icons/react.jpg" },
-  { name: "JavaScript", src: "/src/assets/icons/js.webp" },
-  { name: "Python", src: "/src/assets/icons/python.webp" },
-  { name: "Flask", src: "/src/assets/icons/php_mysql.webp" },
-  { name: "MySQL", src: "/src/assets/icons/sql.webp" },
-  { name: "Git", src: "/src/assets/icons/github.jpg" },
-  { name: "Linux", src: "/src/assets/icons/linux.webp" },
-  { name: "Node.js", src: "/src/assets/icons/nodejs.jpg" },
-  { name: "HTML5", src: "/src/assets/icons/html5.jpg" },
-  { name: "CSS3", src: "/src/assets/icons/css.jpg" },
-  { name: "Bootstrap", src: "/src/assets/icons/bootstrap.webp" },
-  { name: "MongoDB", src: "/src/assets/icons/mongo.webp" },
-  { name: "PostgreSQL", src: "/src/assets/icons/postgresql.webp" },
-  { name: "Vue.js", src: "/src/assets/icons/vue.webp" },
-  { name: "Angular", src: "/src/assets/icons/angular.webp" },
-  { name: "VSCode", src: "/src/assets/icons/vscode.webp" },
+  { name: "React", src: "/assets/icons/react.jpg" },
+  { name: "JavaScript", src: "/assets/icons/js.webp" },
+  { name: "Python", src: "/assets/icons/python.webp" },
+  { name: "Flask", src: "/assets/icons/php_mysql.webp" },
+  { name: "MySQL", src: "/assets/icons/sql.webp" },
+  { name: "Git", src: "/assets/icons/github.jpg" },
+  { name: "Linux", src: "/assets/icons/linux.webp" },
+  { name: "Node.js", src: "/assets/icons/nodejs.jpg" },
+  { name: "HTML5", src: "/assets/icons/html5.jpg" },
+  { name: "CSS3", src: "/assets/icons/css.jpg" },
+  { name: "Bootstrap", src: "/assets/icons/bootstrap.webp" },
+  { name: "MongoDB", src: "/assets/icons/mongo.webp" },
+  { name: "PostgreSQL", src: "/assets/icons/postgresql.webp" },
+  { name: "Vue.js", src: "/assets/icons/vue.webp" },
+  { name: "Angular", src: "/assets/icons/angular.webp" },
+  { name: "VSCode", src: "/assets/icons/vscode.webp" },
 ];
 
 function FloatingIconCubes() {
