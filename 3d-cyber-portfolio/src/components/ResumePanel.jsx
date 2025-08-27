@@ -3,14 +3,14 @@
 export default function ResumePanel() {
   return (
     <div
-      style={{ width: 540, maxWidth: "98vw" }}
-      className="text-lg md:text-xl leading-relaxed"
+      style={{ width: "100%", maxWidth: 540 }}
+      className="text-base sm:text-lg md:text-xl leading-relaxed px-2 sm:px-6 w-full max-w-[98vw] sm:max-w-[540px] mx-auto"
     >
-      <h1 className="text-3xl md:text-4xl font-bold mb-1">DUSTIN PERRY</h1>
-      <div className="text-base opacity-80">
+  <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-1 break-words">DUSTIN PERRY</h1>
+  <div className="text-sm sm:text-base opacity-80 break-words">
         Indianapolis, IN 46227 • (463) 302-8429 • dperry713@gmail.com
       </div>
-      <div className="text-base mt-1 opacity-80">
+  <div className="text-sm sm:text-base mt-1 opacity-80 flex flex-wrap gap-x-2 gap-y-1 items-center break-all">
         <span>LinkedIn: </span>
         <a
           href="https://www.linkedin.com/in/dustin-perry"
@@ -33,8 +33,8 @@ export default function ResumePanel() {
       </div>
 
       <section className="mt-4">
-        <h2 className="font-semibold text-xl">Professional Summary</h2>
-        <p className="text-lg opacity-90">
+        <h2 className="font-semibold text-lg sm:text-xl">Professional Summary</h2>
+        <p className="text-base sm:text-lg opacity-90">
           Hybrid Full Stack Developer & Cybersecurity Specialist with
           certifications in Frontend & Backend Development and Advanced
           Cybersecurity. Skilled in React, JavaScript, Python, Flask, MySQL,
@@ -45,8 +45,8 @@ export default function ResumePanel() {
       </section>
 
       <section className="mt-3">
-        <h3 className="font-semibold text-lg">Core Competencies</h3>
-        <ul className="text-base list-disc list-inside">
+        <h3 className="font-semibold text-base sm:text-lg">Core Competencies</h3>
+        <ul className="text-sm sm:text-base list-disc list-inside">
           <li>
             Full Stack Development: HTML5, CSS3, JavaScript, React, Python,
             Flask, MySQL, REST APIs
@@ -61,8 +61,8 @@ export default function ResumePanel() {
       </section>
 
       <section className="mt-3">
-        <h3 className="font-semibold text-lg">Certifications</h3>
-        <ul className="text-base list-disc list-inside">
+        <h3 className="font-semibold text-base sm:text-lg">Certifications</h3>
+        <ul className="text-sm sm:text-base list-disc list-inside">
           <li>Frontend Development Certificate, Coding Temple — Nov 2024</li>
           <li>Backend Development Certificate, Coding Temple — Nov 2024</li>
           <li>
@@ -72,8 +72,8 @@ export default function ResumePanel() {
       </section>
 
       <section className="mt-3">
-        <h3 className="font-semibold text-lg">Professional Experience</h3>
-        <div className="text-base">
+        <h3 className="font-semibold text-base sm:text-lg">Professional Experience</h3>
+        <div className="text-sm sm:text-base">
           <strong>Project Manager – Keep It Wet | Indianapolis, IN</strong>{" "}
           <span className="opacity-80">(Mar 2020 – Present)</span>
           <ul className="list-disc list-inside">
@@ -120,8 +120,8 @@ export default function ResumePanel() {
       </section>
 
       <section className="mt-3">
-        <h3 className="font-semibold text-lg">Education</h3>
-        <ul className="text-base list-disc list-inside">
+        <h3 className="font-semibold text-base sm:text-lg">Education</h3>
+        <ul className="text-sm sm:text-base list-disc list-inside">
           <li>Frontend Development Certificate, Coding Temple — Nov 2024</li>
           <li>Backend Development Certificate, Coding Temple — Nov 2024</li>
           <li>
